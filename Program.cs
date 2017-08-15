@@ -32,6 +32,13 @@ namespace lifeModel_dotnet
             team.Colors = "Red and White";
             team.Championships = 11;
             Console.WriteLine(team);
+
+            team = new SportsTeam();
+            team.Name = "Green Bay Packers";
+            team.Sport = "FootBall";
+            team.Colors = "Green and Gold";
+            team.Championships = 4;
+            Console.WriteLine(team);
         }
     }
 }
